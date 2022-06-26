@@ -1,0 +1,31 @@
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height:fit-content;
+  padding: 0px 20%;
+  
+}
+/* Same as width, sets height */
+/* (100-23*4)/2 */
+.flex-container .item {
+  /*width: 23%;*/
+  height: 450px;
+  width: 360px;
+  /*padding-bottom: 15%;
+  margin-bottom: 4%;*/
+  position: relative;
+  border-style: solid;
+  border-width: thin;
+  /*justify-content: stretch;*/
+  /*display: block;*/
+  /*
+  margin-left: auto;
+  margin-right: auto;
+  */
+}
+
+.flex-container .item #products{
+  width: 100%;
+  height: fit-contentx;
+}
